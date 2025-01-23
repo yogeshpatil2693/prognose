@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="sanity suite " parallel = "tests">
+	
+	<listeners>
+		<listener class-name="com.prognose.qa.listeners.ExtentReportListener" />
+		<listener class-name="com.prognose.qa.listeners.TestAllureListener" />
+	</listeners>
+
+	<test name="Login Page Test">
+		<classes>
+			<class name="com.prognose.qa.tests.LoginPageTest" />
+		</classes>
+	</test>
+	<test name="Permission Page Test">
+		<classes>
+			<class name="com.prognose.qa.tests.PermissionsPageTest" />
+		</classes>
+	</test>
+	<test name="Roles Page Test">
+		<classes>
+			<class name="com.prognose.qa.tests.RolesPageTest" />
+		</classes>
+	</test>
+	<test name="UserRole Page Test">
+		<classes>
+			<class name="com.prognose.qa.tests.UserRolePageTest" />
+		</classes>
+	</test>
+</suite>
