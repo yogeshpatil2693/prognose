@@ -41,6 +41,3 @@ Go to Reports folder and open below link
 TestExecutionReport.html
 
 
-
-![Logo](https://cdn.prod.website-files.com/63b6b53a6414600590d96c45/653f4a018126c8bbd07c17d2_Yen-TextLogo-50prcnt.png)
-
